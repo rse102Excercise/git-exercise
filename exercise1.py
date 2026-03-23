@@ -33,7 +33,9 @@ def test_vector_index_access() -> None:
         vector[index] = 42.0
         assert vector[index] == 42.0
 
-        # Task A: make this test pass by ensuring that `Vector` uses a copy of the coordinates it receives in the constructor
+        # Task A: make this test pass by ensuring that `Vector` 
+        # uses a copy of the coordinates it receives in the constructor
+        # Do something
         assert reference[index] != 42.0
 
 
